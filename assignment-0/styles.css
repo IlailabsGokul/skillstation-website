@@ -1,0 +1,38 @@
+/* styles.css */
+
+.sections{
+    background-color: #e4e1e1;
+}
+
+.menu{
+    background-color: rgb(127, 148, 148);
+    padding: 20px;
+    text-align: right;
+}
+
+.button-container{
+    background-color: rgb(31, 48, 48);
+    width: 50%;
+    text-align: right;
+}
+
+.section-one{
+    background-color: #f0f0f0; /* Replace with your desired color */
+    padding: 20px; /* Optional: Add some padding for better visibility */
+    height: 480px;
+    margin-bottom: 10px;
+}
+
+.section-two{
+    background-color: #eccece; /* Replace with your desired color */
+    padding: 20px; /* Optional: Add some padding for better visibility */
+    height: 480px;
+    margin-bottom: 10px;
+}
+
+.section-three{
+    background-color: #d1b8b8; /* Replace with your desired color */
+    padding: 20px; /* Optional: Add some padding for better visibility */
+    height: 480px;
+    margin-bottom: 10px;
+}
