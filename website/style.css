@@ -11,7 +11,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: tomato;
   padding: 10px 50px;
 }
 
@@ -36,7 +36,7 @@ html {
   background-position: center;
   text-align: center;
   padding: 100px 50px;
-  color: #ffffff;
+  color: tomato;
 }
 .banner h1 {
   font-size: 48px;
@@ -44,7 +44,7 @@ html {
 }
 .banner button {
   background-color: #0066ff;
-  color: #ffffff;
+  color:tomato;
   border: none;
   padding: 10px 30px;
   font-size: 18px;
@@ -54,7 +54,7 @@ html {
   display: flex;
   justify-content: center;
   gap: 50px;
-  background-color: #ffffff;
+  background-color: tomato;
   padding: 50px 0;
   text-align: center;
 }
@@ -90,7 +90,7 @@ html {
   color: white;
 }
 .about-content {
-  background-color: white;
+  background-color: tomato;
   margin: 0 20px;
   padding: 20px;
   border-radius: 5px;
@@ -196,7 +196,7 @@ html {
 .gallery-container {
   text-align: center;
   padding: 50px;
-  background-color: #f0f0f0;
+  background-color: tomato;
 }
 .gallery-title {
   font-size: 2rem;
