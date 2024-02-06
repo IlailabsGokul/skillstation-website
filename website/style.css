@@ -1,27 +1,35 @@
 /* front page with header  */
-
+.{
+  margin: 0px;
+  padding: 0px;
+}
 .logo{
   height: 50px;
-  display: flex;  
+  display: flex;
+  flex-direction: row;  
   padding: 5px;
+  /* background-color: pink; */
+  justify-content: ;
 }
 
 .skillstation-logo{
-  height: 60%;
+  height: auto;
+  width: 50px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  
   padding: 5px;
+  /* background-color: green; */
 }
 
 .skillstation_wordings{
-  display: inline;
-  height: 10px;
+  display: flex;
+  height: 50px;
   color: white;
   text-align: top;
   margin-top: 5px;
   text-decoration: none;
   font-weight: bold;
+  /* background-color: green; */
 }
 
 .contact{
@@ -34,9 +42,12 @@
   color: lightblue;
   justify-content: space-between;
   margin: 5px;
-  padding: 2px;
-  
+  padding: 2px;  
 
+}
+
+.contact_header{
+  text-decoration: none;
 }
 
 .whatsapp-logo{
@@ -89,12 +100,13 @@ html {
 /* end of nav bar section */
 
 .banner {
-  background-image: url("IMG_4713.JPG");
+  /* background-image: url("IMG_4713.JPG"); */
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 100px 50px;
-  color: tomato;
+  /* padding: 100px 50px; */
+  /* color: tomato; */
+  /* background-color: red; */
 }
 .banner h1 {
   font-size: 48px;
@@ -104,9 +116,18 @@ html {
   background-color: #0066ff;
   color:tomato;
   border: none;
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
   font-size: 18px;
   cursor: pointer;
+}
+
+.banner_gif{
+  background-color: green;
+  height: 100%;
+  width: 100%;
+}
+.banner_opacity{
+  opacity: 0.5;
 }
 
 /* what we do */
@@ -536,11 +557,12 @@ footer{
 }
 
 .footer_reference2{
-  /* background-color: lightgoldenrodyellow; */
+  background-color: lightgosldenrodyellow;
   display: flex;
   flex-direction: column;
   height: 100px;
   margin-top: 100px;
+  /* justify-self: baseline; */
 }
 
 
@@ -555,6 +577,7 @@ footer{
   gap: 10px;
   border-radius: 10px;
   margin-right: 50px;
+ 
 
 }
 
@@ -562,11 +585,12 @@ footer{
   border-radius: 10px;
   height: 50px;
   width: 200px;
+  color: black;
+  
+
 }
 
-.footer_app_reference i{
 
-}
 
 .footer_rights_reserved{
  
